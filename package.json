@@ -1,0 +1,33 @@
+{
+    "name": "kap-youtube",
+    "version": "0.1.0",
+    "description": "Upload to YouTube",
+    "license": "MIT",
+    "repository": "huedaya/kap-youtube",
+    "author": {
+        "name": "Khakim Hudaya",
+        "email": "khakim.hudaya@gmail.com",
+        "url": "https://huedaya.com"
+    },
+    "scripts": {
+        "test": "echo notest"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "kap-plugin",
+        "youtube",
+        "upload",
+        "share"
+    ],
+    "dependencies": {
+        "request": "*"
+    },
+    "devDependencies": {
+        "ava": "*",
+        "kap-plugin-test": "^0.5.0",
+        "sinon": "^2.3.2",
+        "xo": "*"
+    }
+}
