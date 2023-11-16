@@ -20,10 +20,17 @@ const action = async (context) => {
 };
 
 const config = {
-	apiKey: {
-		title: "API key",
+	clientId: {
+		title: "Client ID",
 		type: "string",
-		minLength: 13,
+		minLength: 40,
+		default: "",
+		required: true,
+	},
+	secretId: {
+		title: "Secret ID",
+		type: "string",
+		minLength: 40,
 		default: "",
 		required: true,
 	},
